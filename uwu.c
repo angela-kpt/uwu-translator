@@ -45,7 +45,7 @@ int
 main(int argc, char *argv[])
 {
 	char *s = NULL;
-    printf("Enter a phrase: ");
+	printf("Enter a phrase: ");
 	getsd(&s);
 	uwu(s);
 	printf("\nuwu: %s\n", s);
