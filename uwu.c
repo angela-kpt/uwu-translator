@@ -1,3 +1,7 @@
+/*
+ * UWU TRANSLATOR
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -18,7 +22,6 @@ getsd(char **buf)
 	}
 	*ptr = '\0';
 	return n;
-
 }
 
 /* change string into uwu */
@@ -44,10 +47,15 @@ uwu(char *s)
 int
 main(int argc, char *argv[])
 {
+
 	char *s = NULL;
+
 	printf("Enter a phrase: ");
 	getsd(&s);
+
 	uwu(s);
 	printf("\nuwu: %s\n", s);
+
 	free(s);
+
 }
