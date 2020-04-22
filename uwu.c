@@ -9,7 +9,7 @@
 
 /* get string of arbitrary size */
 static size_t
-getsd(char **buf)
+getsd(char **buf) //written by 0x1bi
 {
 	int c, n = INIT_SIZE;
 	char *ptr = (*buf = (char *) malloc(n));
